@@ -8,8 +8,19 @@
 
 <div class="my-8"></div>
 
+<div class="grid grid-cols-2 gap-4">
+
+<div>
+
 ### 対応
 - **PR作成時にCIで検証**
   - 新しく追加された依存パッケージをチェック
-- **定期的なAudit実行**
-  - 既存の依存パッケージの脆弱性をチェック
+
+</div>
+
+<div class="flex items-center">
+  <img src="/npm-audit-output.png" class="h-60 rounded shadow-lg" />
+</div>
+
+</div>
+
