@@ -11,15 +11,10 @@ drawings:
   persist: false
 transition: slide-left
 title: npmエコシステムにおけるセキュリティ対策
----
-
----
 src: ./pages/slides/01-title.md
 ---
 
----
-src: ./pages/slides/02-agenda.md
----
+
 
 ---
 src: ./pages/slides/03-background.md
@@ -41,17 +36,13 @@ src: ./pages/slides/06-layer2-alerts.md
 src: ./pages/slides/07-layer3-ci-audit.md
 ---
 
----
-src: ./pages/slides/08-layer4-updates.md
----
+
 
 ---
 src: ./pages/slides/09-summary.md
 ---
 
----
-src: ./pages/slides/10-operations.md
----
+
 
 ---
 src: ./pages/slides/11-thankyou.md
