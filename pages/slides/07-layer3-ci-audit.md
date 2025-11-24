@@ -1,16 +1,15 @@
 # 第3層: CIによるガード (Audit)
-
 **目的**: 脆弱性を含むパッケージの混入を未然に防ぐ
-
-### 実装 (GitHub Actions)
 
 ```yaml
 - name: Run security audit
   run: npm audit --audit-level=high
 ```
 
-### ポイント
+<div class="my-8"></div>
 
-- **タイミング**: Pull Request 作成時
-- **強制力**: ビルド失敗 = マージ不可
-- **レベル**: `high` 以上でブロック推奨
+### 対応
+- **PR作成時にCIで検証**
+  - 新しく追加された依存パッケージをチェック
+- **定期的なAudit実行**
+  - 既存の依存パッケージの脆弱性をチェック

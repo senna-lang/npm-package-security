@@ -33,15 +33,16 @@ src: ./pages/slides/06-layer2-alerts.md
 ---
 
 ---
+src: ./pages/slides/06-layer2-flow.md
+---
+
+---
 src: ./pages/slides/07-layer3-ci-audit.md
 ---
 
-
-
 ---
-src: ./pages/slides/09-summary.md
+src: ./pages/slides/07-layer3-review.md
 ---
-
 
 
 ---
