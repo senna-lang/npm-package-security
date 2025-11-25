@@ -7,9 +7,9 @@
 <div>
 
 ### 対応
-- `.npmrc`: `save-exact=true`
 - `package.json`:  バージョンの範囲指定をしない
   `❌"^3.5.24", ⭕️"3.5.24"`
+- `.npmrc`: `save-exact=true`
 - `package-lock.json`: **必ずコミット**
 
 </div>
